@@ -1,4 +1,5 @@
 #!/bin/bash
-yum update -y
-yum upgrade -y
-yum install httpd -y
+sudo yum update -y
+sudo yum upgrade -y
+sudo yum install httpd -y
+sudo chkconfig httpd on
