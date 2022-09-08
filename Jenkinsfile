@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-        label 'ansibleslave'
-    }
+    agent any
     parameters {
         choice(name: 'action', choices: 'create\ndestroy', description: 'Create/update or destroy the apache-server')
         string(name: 'workspace', description: "Name of the workspace")
