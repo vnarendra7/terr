@@ -18,7 +18,7 @@ default = "t2.micro"
 
 variable "key" {
 description = "Server Key file name"
-default = "Sec_key"
+default = "ctcdevops"
 }
 
 variable "bootstrap_path" {
