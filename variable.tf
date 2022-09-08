@@ -1,6 +1,6 @@
 variable "aws_region" {
   description = "To use AWS region"
-  default = "ap-south-1"
+  default = "us-west-1"
 }
 
 variable "no_of_instances" {
@@ -8,7 +8,7 @@ default = "3"
 }
 
 variable "ami" {
-default = "ami-0447a12f28fddb066"
+default = "ami-018d291ca9ffc002f"
 }
 
 variable "instance_type" {
